@@ -1,0 +1,180 @@
+body {
+    background-image: url('https://www.wallpaperuse.com/wallp/22-225517_m.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #2e2e2e;
+    font-family: 'Poppins', sans-serif;
+    color: s#ffffff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card {
+    border-radius: 10px;
+    border: 2px;
+    background-color: #bebcbc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: 700;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #19ad39;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #a0a0a0f0;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+}
+
+.list-group-item-success {
+    background-color: #83ff87;
+    border-color: #919191;
+}
+
+.list-group-item-danger {
+    background-color: #ff9393;
+    border-color: #0643de;
+}
+
+.list-group-item > span:first-child {
+    flex: 1;
+}
+
+.list-group-item > span:last-child button {
+    margin-right: 5px;
+    transition: background-color 0.2s;
+}
+
+.list-group-item button:hover {
+    background-color: #838e8c;
+}
+
+.list-group-item span strong {
+    display: block;
+    font-size: 1.1em;
+}
+
+.list-group-item span {
+    display: flex;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.list-group-item {
+    animation: fadeIn 0.5s ease-in;
+}
+
+body{
+background-image: url('https://www.wallpaperuse.com/wallp/22-225517_m.jpg');
+background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+background-position: center; /* Centra la imagen */
+background-repeat: no-repeat; /* Evita que la imagen se repita */
+font-family: 'Poppins', sans-serif;
+color: #333;
+
+}
+
+.container {
+margin-top: 50px;
+background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+padding: 20px;
+border-radius: 10px;
+}
+
+h1 {
+margin-bottom: 30px;
+color: #343a40;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.card {
+border-radius: 10px;
+border: none;
+background-color: #ffffff;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para manejar el desbordamiento de texto */
+.responsible-text {
+display: inline-block;
+max-width: 200px; /* Ajusta el ancho máximo según tus necesidades */
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+li.list-group-item span {
+display: block;
+max-width: 100%;
+word-wrap: break-word;
+}
+
+/* Estilos para botones y otros elementos */
+.btn {
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+
+.list-group-item {
+border: none;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.list-group-item-success {
+background-color: #d4edda;
+color: #155724;
+}
+
+.list-group-item-danger {
+background-color: #f8d7da;
+color: #721c24;
+}
+
+.list-group-item-primary {
+background-color: #cce5ff;
+color: #004085;
+}
+
